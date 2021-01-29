@@ -1,0 +1,51 @@
+* {
+}
+
+section {
+    display: flexbox;
+    border-radius: 10px;
+    width: 200px;
+    height: 200px;
+    /* color: rgb(0, 255, 128); */
+    /* text-shadow: 10px; */
+    background: rgb(0, 0, 128);
+}
+
+.mint {
+    background: rgb(0, 255, 128);
+    
+}
+
+.teal {
+    background: rgb(0, 128, 128);
+}
+
+.navy {
+    color: white;
+    background: rgb(0, 0, 128);
+}
+
+.purple {
+    background: rgb(128, 0, 128);
+}
+
+.pink {
+    background: rgb(255, 0, 128);
+}
+
+.orange {
+    background: rgb(255, 128, 128);
+}
+
+.yellow {
+    background: rgb(255, 255, 128);
+}
+
+.grass {
+    background: rgb(192, 255, 128);
+}
+
+h1 {
+    color:rgb(0, 255, 128);
+    background: rgb(0, 0, 128);
+}
