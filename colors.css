@@ -2,7 +2,7 @@
 }
 
 section {
-    display: flexbox;
+    /* display: flexbox; */
     border-radius: 10px;
     width: 200px;
     height: 200px;
@@ -11,10 +11,18 @@ section {
     background: rgb(0, 0, 128);
 }
 
+section :hover {
+    border-radius: 10px;
+    background: rgb(0, 0, 128);
+    color: rgb(0, 255, 128);
+    height: 200px;
+    width: 200px;
+}
+
 .mint {
     background: rgb(0, 255, 128);
-    
 }
+
 
 .teal {
     background: rgb(0, 128, 128);
