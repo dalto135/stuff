@@ -1,0 +1,197 @@
+/* Fourth layer */
+#greenTrans {
+    background: rgba(0, 255, 128, 0.5);
+}
+
+#greenTealTrans {
+    background: rgba(0, 213, 128, 0.5);
+}
+
+#tealGreenTrans {
+    background: rgba(0, 170, 128, 0.5);
+}
+
+#tealTrans {
+    background: rgba(0, 128, 128, 0.5);
+}
+
+#tealBlueTrans {
+    background: rgba(0, 85, 128, 0.5);
+}
+
+#blueTealTrans {
+    background: rgba(0, 43, 128, 0.5);
+}
+
+#blueTrans {
+    background: rgba(0, 0, 128, 0.5);
+}
+
+#bluePurpleTrans {
+    background: rgba(43, 0, 128, 0.5);
+}
+
+#purpleBlueTrans {
+    background: rgba(85, 0, 128, 0.5);
+}
+
+#purpleTrans {
+    background: rgba(128, 0, 128, 0.5);
+}
+
+#purplePinkTrans {
+    background: rgba(170, 0, 128, 0.5);
+}
+
+#pinkPurpleTrans {
+    background: rgba(213, 0, 128, 0.5);
+}
+
+#pinkTrans {
+    background: rgba(255, 0, 128, 0.5);
+}
+
+#pinkOrangeTrans {
+    background: rgba(255, 43, 128, 0.5);
+}
+
+#orangePinkTrans {
+    background: rgba(255, 85, 128, 0.5);
+}
+
+#orangeTrans {
+    background: rgba(255, 128, 128, 0.5);
+}
+
+#orangeYellowTrans {
+    background: rgba(255, 170, 128, 0.5);
+}
+
+#yellowOrangeTrans {
+    background: rgba(255, 213, 128, 0.5);
+}
+
+#yellowTrans {
+    background: rgba(255, 255, 128, 0.5);
+}
+
+#yellowGrassTrans {
+    background: rgba(213, 255, 128, 0.5);
+}
+
+#grassYellowTrans {
+    background: rgba(170, 255, 128, 0.5);
+}
+
+#grassTrans {
+    background: rgba(128, 255, 128, 0.5);
+}
+
+#grassGreenTrans {
+    background: rgba(85, 255, 128, 0.5);
+}
+
+#greenGrassTrans {
+    background: rgba(43, 255, 128, 0.5);
+}
+
+/* Middle fourth layer grey */
+#greyTrans {
+    background: rgba(128, 128, 128, 0.5);
+}
+
+#tealGreyTrans {
+    background: rgba(43, 128, 128, 0.5);
+}
+
+#greyTealTrans {
+    background: rgba(85, 128, 128, 0.5);
+}
+
+#purpleGreyTrans {
+    background: rgba(128, 43, 128, 0.5);
+}
+
+#greyPurpleTrans {
+    background: rgba(128, 85, 128, 0.5);
+}
+
+#orangeGreyTrans {
+    background: rgba(213, 128, 128, 0.5);
+}
+
+#greyOrangeTrans {
+    background: rgba(170, 128, 128, 0.5);
+}
+
+#grassGreyTrans {
+    background: rgba(128, 213, 128, 0.5);
+}
+
+#greyGrassTrans {
+    background: rgba(128, 170, 128, 0.5);
+}
+
+#greenGreyTrans {
+    background: rgba(43, 213, 128, 0.5);
+}
+#greyGreenTrans {
+    background: rgba(85, 170, 128, 0.5);
+}
+
+#blueGreyTrans {
+    background: rgba(43, 43, 128, 0.5);
+}
+
+#greyBlueTrans {
+    background: rgba(85, 85, 128, 0.5);
+}
+
+#pinkGreyTrans {
+    background: rgba(213, 43, 128, 0.5);
+}
+
+#greyPinkTrans {
+    background: rgba(170, 85, 128, 0.5);
+}
+
+#yellowGreyTrans {
+    background: rgba(213, 213, 128, 0.5);
+}
+
+#greyYellowTrans {
+    background: rgba(170, 170, 128, 0.5);
+}
+
+/* Middle fourth layer */
+#grassTealTrans {
+    background: rgba(85, 213, 128, 0.5);
+}
+
+#tealGrassTrans {
+    background: rgba(43, 170, 128, 0.5);
+}
+
+#tealPurpleTrans {
+    background: rgba(43, 85, 128, 0.5);
+}
+
+#purpleTealTrans {
+    background: rgba(85, 43, 128, 0.5);
+}
+
+#purpleOrangeTrans {
+    background: rgba(170, 43, 128, 0.5);
+}
+
+#orangePurpleTrans {
+    background: rgba(213, 85, 128, 0.5);
+}
+
+#orangeGrassTrans {
+    background: rgba(213, 170, 128, 0.5);
+}
+
+#grassOrangeTrans {
+    background: rgba(170, 213, 128, 0.5);
+}

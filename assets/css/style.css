@@ -1,102 +1,73 @@
 * {
     text-align: center;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 3px;
+    padding: 0px 3px;
+    align-items: center;
+    justify-content: center;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
+html, body, main, header {
+    border: None;
+}
+
+#grey {
+    background: rgb(128, 128, 128);
+}
+
+#light {
+    background: rgb(255, 255, 255);
+}
+
+#dark {
+    background: rgb(0, 0, 0);
 }
 
 section {
-    border-radius: 10px;
-    height: 300px;
-    flex: 1 0 300px;
+    display: flex;
+    flex-wrap: wrap;
+    border: None;
+    margin: 0px;
+    padding: 0px;
 }
 
-section :hover {
-    border-radius: 10px;
-    background-image: linear-gradient(rgb(0, 255, 128),
-        rgb(0, 0, 128));
-    color: rgb(0, 0, 128);
-    height: 300px;
+#dark section {
+    border-color: rgb(128, 128, 128);
 }
 
-.mint {
-    background: rgb(128, 0, 0);
+#dark div {
+    border-color: rgb(128, 128, 128);
 }
 
-.teal1 {
-    background: rgb(128, 0, 128);
+#dark h1 {
+    border-color: rgb(128, 128, 128);
+    color: rgb(128, 128, 128)
 }
 
-.teal2 {
-    background: rgb(128, 0, 255);
+.layer {
+    height: 240px;
+    width: 240px;
+    padding: 3px;
 }
 
-.navy {
-    color: white;
-    background: rgb(128, 0, 0);
-    display: none;
+.row {
+    display: flex;
+    border: None;
+    margin: 0px;
+    padding: 0px;
 }
 
-.pink {
-    background: rgb(128, 128, 0);
-}
-
-.purple1 {
+.square {
     background: rgb(128, 128, 128);
+    height: 26px;
+    width: 20px;
 }
 
-.purple2 {
-    background: rgb(128, 128, 255);
+#dark .square {
+    border-color: rgb(0, 0, 0);
 }
 
-
-
-
-.orange1 {
-    background: rgb(128, 128, 128);
-    display: none;
-    
-}
-
-
-
-.orange2 {
-    background: rgb(40, 32, 32);
-    /* display: none; */
-}
-
-.yellow {
-    background: rgb(128, 255, 0);
-}
-
-.grass1 {
-    background: rgb(128, 255, 128);
-}
-
-.grass2 {
-    background: rgb(128, 255, 255);
-}
-
-.blueblack {
-    background: rgb(32, 32, 40);
-}
-
-.light {
-    background: rgb(255, 248, 224);
-}
-
-.lightdark {
-    background: rgb(32, 31, 28);
-}
-
-h1 {
-    color:rgb(0, 255, 128);
-    background: rgb(0, 0, 128);
-    border-radius: 10px;
-}
-
-img {
-    width: 100%;
+#light .square {
+    border-color: rgb(255, 255, 255);
 }

@@ -1,0 +1,101 @@
+/* Fifth layer */
+#pinkWhite {
+    background: rgb(255, 85, 170);
+}
+
+#pinkOrangeWhite {
+    background: rgb(255, 128, 170);
+}
+
+#orangeWhite {
+    background: rgb(255, 170, 170);
+}
+
+#orangeYellowWhite {
+    background: rgb(255, 213, 170);
+}
+
+#yellowWhite {
+    background: rgb(255, 255, 170);
+}
+
+#yellowGrassWhite {
+    background: rgb(213, 255, 170);
+}
+
+#grassWhite {
+    background: rgb(170, 255, 170);
+}
+
+#grassGreenWhite {
+    background: rgb(128, 255, 170);
+}
+
+#greenWhite {
+    background: rgb(85, 255, 170);
+}
+
+#greenTealWhite {
+    background: rgb(85, 213, 170);
+}
+
+#tealWhite {
+    background: rgb(85, 170, 170);
+}
+
+#tealBlueWhite {
+    background: rgb(85, 128, 170);
+}
+
+#blueWhite {
+    background: rgb(85, 85, 170);
+}
+
+#bluePurpleWhite {
+    background: rgb(128, 85, 170);
+}
+
+#purpleWhite {
+    background: rgb(170, 85, 170);
+}
+
+#purplePinkWhite {
+    background: rgb(213, 85, 170);
+}
+
+/* Fifth layer grey */
+#greyWhite {
+    background: rgb(170, 170, 170);
+}
+
+#greyPinkWhite {
+    background: rgb(213, 128, 170);
+}
+
+#greyOrangeWhite {
+    background: rgb(213, 170, 170);
+}
+
+#greyYellowWhite {
+    background: rgb(213, 213, 170);
+}
+
+#greyGrassWhite {
+    background: rgb(170, 213, 170);
+}
+
+#greyGreenWhite {
+    background: rgb(128, 213, 170);
+}
+
+#greyTealWhite {
+    background: rgb(128, 170, 170);
+}
+
+#greyBlueWhite {
+    background: rgb(128, 128, 170);
+}
+
+#greyPurpleWhite {
+    background: rgb(170, 128, 170);
+}

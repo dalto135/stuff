@@ -1,0 +1,193 @@
+/* Fourth layer */
+#green {
+    background: rgb(0, 255, 128);
+}
+
+#greenTeal {
+    background: rgb(0, 213, 128);
+}
+
+#tealGreen {
+    background: rgb(0, 170, 128);
+}
+
+#teal {
+    background: rgb(0, 128, 128);
+}
+
+#tealBlue {
+    background: rgb(0, 85, 128);
+}
+
+#blueTeal {
+    background: rgb(0, 43, 128);
+}
+
+#blue {
+    background: rgb(0, 0, 128);
+}
+
+#bluePurple {
+    background: rgb(43, 0, 128);
+}
+
+#purpleBlue {
+    background: rgb(85, 0, 128);
+}
+
+#purple {
+    background: rgb(128, 0, 128);
+}
+
+#purplePink {
+    background: rgb(170, 0, 128);
+}
+
+#pinkPurple {
+    background: rgb(213, 0, 128);
+}
+
+#pink {
+    background: rgb(255, 0, 128);
+}
+
+#pinkOrange {
+    background: rgb(255, 43, 128);
+}
+
+#orangePink {
+    background: rgb(255, 85, 128);
+}
+
+#orange {
+    background: rgb(255, 128, 128);
+}
+
+#orangeYellow {
+    background: rgb(255, 170, 128);
+}
+
+#yellowOrange {
+    background: rgb(255, 213, 128);
+}
+
+#yellow {
+    background: rgb(255, 255, 128);
+}
+
+#yellowGrass {
+    background: rgb(213, 255, 128);
+}
+
+#grassYellow {
+    background: rgb(170, 255, 128);
+}
+
+#grass {
+    background: rgb(128, 255, 128);
+}
+
+#grassGreen {
+    background: rgb(85, 255, 128);
+}
+
+#greenGrass {
+    background: rgb(43, 255, 128);
+}
+
+/* Middle fourth layer grey */
+#tealGrey {
+    background: rgb(43, 128, 128);
+}
+
+#greyTeal {
+    background: rgb(85, 128, 128);
+}
+
+#purpleGrey {
+    background: rgb(128, 43, 128);
+}
+
+#greyPurple {
+    background: rgb(128, 85, 128);
+}
+
+#orangeGrey {
+    background: rgb(213, 128, 128);
+}
+
+#greyOrange {
+    background: rgb(170, 128, 128);
+}
+
+#grassGrey {
+    background: rgb(128, 213, 128);
+}
+
+#greyGrass {
+    background: rgb(128, 170, 128);
+}
+
+#greenGrey {
+    background: rgb(43, 213, 128);
+}
+#greyGreen {
+    background: rgb(85, 170, 128);
+}
+
+#blueGrey {
+    background: rgb(43, 43, 128);
+}
+
+#greyBlue {
+    background: rgb(85, 85, 128);
+}
+
+#pinkGrey {
+    background: rgb(213, 43, 128);
+}
+
+#greyPink {
+    background: rgb(170, 85, 128);
+}
+
+#yellowGrey {
+    background: rgb(213, 213, 128);
+}
+
+#greyYellow {
+    background: rgb(170, 170, 128);
+}
+
+/* Middle fourth layer */
+#grassTeal {
+    background: rgb(85, 213, 128);
+}
+
+#tealGrass {
+    background: rgb(43, 170, 128);
+}
+
+#tealPurple {
+    background: rgb(43, 85, 128);
+}
+
+#purpleTeal {
+    background: rgb(85, 43, 128);
+}
+
+#purpleOrange {
+    background: rgb(170, 43, 128);
+}
+
+#orangePurple {
+    background: rgb(213, 85, 128);
+}
+
+#orangeGrass {
+    background: rgb(213, 170, 128);
+}
+
+#grassOrange {
+    background: rgb(170, 213, 128);
+}

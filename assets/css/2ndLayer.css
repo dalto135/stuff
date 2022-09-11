@@ -1,0 +1,36 @@
+/* Second layer */
+#blackGreen {
+    background: rgb(0, 85, 43);
+}
+
+#blackTeal {
+    background: rgb(0, 43, 43);
+}
+
+#blackBlue {
+    background: rgb(0, 0, 43);
+}
+
+#blackGrass {
+    background: rgb(43, 85, 43);
+}
+
+#blackGrey {
+    background: rgb(43, 43, 43);
+}
+
+#blackPurple {
+    background: rgb(43, 0, 43);
+}
+
+#blackYellow {
+    background: rgb(85, 85, 43);
+}
+
+#blackOrange {
+    background: rgb(85, 43, 43);
+}
+
+#blackPink {
+    background: rgb(85, 0, 43);
+}

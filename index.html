@@ -1,90 +1,616 @@
 <!DOCTYPE html>
-<html>
+<html id="grey">
 
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/1stLayer.css">
+        <link rel="stylesheet" href="assets/css/2ndLayer.css">
+        <link rel="stylesheet" href="assets/css/3rdLayer.css">
+        <link rel="stylesheet" href="assets/css/4thLayer.css">
+        <link rel="stylesheet" href="assets/css/5thLayer.css">
+        <link rel="stylesheet" href="assets/css/6thLayer.css">
+        <link rel="stylesheet" href="assets/css/7thLayer.css">
+        <link rel="stylesheet" href="assets/css/translucent.css">
+
         <title>Colors</title>
     </head>
 
     <body>
         <header>
             <h1>Colors</h1>
+            <button id="greyButton">Grey Mode</button>
+            <button id="lightButton">Light Mode</button>
+            <button id="darkButton">Dark Mode</button>
         </header>
 
         <main>
-            <img src="https://images.e-flux-systems.com/1496954377901.png,1440" alt="solarpunk">
-            <section class="mint">
-                <p>
-                    mint
-                </p>
+            <section>
+                <div class="layer">
+                    <div class="row">
+                        <div class="square" id="pinkTrans"></div>
+                        <div class="square" id="pinkOrangeTrans"></div>
+                        <div class="square" id="orangePinkTrans"></div>
+                        <div class="square" id="orangeTrans"></div>
+                        <div class="square" id="orangeYellowTrans"></div>
+                        <div class="square" id="yellowOrangeTrans"></div>
+                        <div class="square" id="yellowTrans"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="pinkPurpleTrans"></div>
+                        <div class="square" id="pinkGreyTrans"></div>
+                        <div class="square" id="orangePurpleTrans"></div>
+                        <div class="square" id="orangeGreyTrans"></div>
+                        <div class="square" id="orangeGrassTrans"></div>
+                        <div class="square" id="yellowGreyTrans"></div>
+                        <div class="square" id="yellowGrassTrans"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purplePinkTrans"></div>
+                        <div class="square" id="purpleOrangeTrans"></div>
+                        <div class="square" id="greyPinkTrans"></div>
+                        <div class="square" id="greyOrangeTrans"></div>
+                        <div class="square" id="greyYellowTrans"></div>
+                        <div class="square" id="grassOrangeTrans"></div>
+                        <div class="square" id="grassYellowTrans"></div>
+    
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purpleTrans"></div>
+                        <div class="square" id="purpleGreyTrans"></div>
+                        <div class="square" id="greyPurpleTrans"></div>
+                        <div class="square" id="greyTrans"></div>
+                        <div class="square" id="greyGrassTrans"></div>
+                        <div class="square" id="grassGreyTrans"></div>
+                        <div class="square" id="grassTrans"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purpleBlueTrans"></div>
+                        <div class="square" id="purpleTealTrans"></div>
+                        <div class="square" id="greyBlueTrans"></div>
+                        <div class="square" id="greyTealTrans"></div>
+                        <div class="square" id="greyGreenTrans"></div>
+                        <div class="square" id="grassTealTrans"></div>
+                        <div class="square" id="grassGreenTrans"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="bluePurpleTrans"></div>
+                        <div class="square" id="blueGreyTrans"></div>
+                        <div class="square" id="tealPurpleTrans"></div>
+                        <div class="square" id="tealGreyTrans"></div>
+                        <div class="square" id="tealGrassTrans"></div>
+                        <div class="square" id="greenGreyTrans"></div>
+                        <div class="square" id="greenGrassTrans"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="blueTrans"></div>
+                        <div class="square" id="blueTealTrans"></div>
+                        <div class="square" id="tealBlueTrans"></div>
+                        <div class="square" id="tealTrans"></div>
+                        <div class="square" id="tealGreenTrans"></div>
+                        <div class="square" id="greenTealTrans"></div>
+                        <div class="square" id="greenTrans"></div>
+                    </div>
+                </div>
             </section>
-            <section class="teal1">
-                <p>
-                    teal1
-                </p>
-            </section>
-            <section class="teal2">
-                <p>
-                    teal2
-                </p>
-            </section>
-            <section class="navy">
-                <p>
-                    navy
-                </p>
-            </section>
-            <section class="purple1">
-                <p>
-                    purple1
-                </p>
-            </section>
-            <section class="purple2">
-                <p>
-                    purple2
-                </p>
-            </section>
-            <section class="pink">
-                <p>
-                    pink
-                </p>
-            </section>
-            <section class="orange1">
-                <p>
-                    orange1
-                </p>
-            </section>
-            <section class="grass2">
-                <p>
-                    orange2
-                </p>
-            </section>
-            <section class="yellow">
-                <p>
-                    yellow
-                </p>
-            </section>
-            <section class="grass1">
-                <p>
-                    grass1
-                </p>
-            </section>
-            <section class="orange2">
-                <p>
-                    grass2
-                </p>
-            </section>
-            <section class="blueblack">
-                <p>blueblack</p>
-            </section>
-            <section class="light">
-                <p>light</p>
-            </section>
-            <section class="lightdark">
-                <p>lightdark</p>
-            </section>
-            <img src="solarpunk.png" alt="solarpunk">
-        </main>
-        
-    </body>
 
+            <section>
+                <div class="layer">
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="black"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+    
+                <div class="layer">
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="blackPink"></div>
+                        <div class="square" id="blackOrange"></div>
+                        <div class="square" id="blackYellow"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="blackPurple"></div>
+                        <div class="square" id="blackGrey"></div>
+                        <div class="square" id="blackGrass"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="blackBlue"></div>
+                        <div class="square" id="blackTeal"></div>
+                        <div class="square" id="blackGreen"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+    
+                <div class="layer">
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="pinkBlack"></div>
+                        <div class="square" id="pinkOrangeBlack"></div>
+                        <div class="square" id="orangeBlack"></div>
+                        <div class="square" id="orangeYellowBlack"></div>
+                        <div class="square" id="yellowBlack"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purplePinkBlack"></div>
+                        <div class="square" id="greyPinkBlack"></div>
+                        <div class="square" id="greyOrangeBlack"></div>
+                        <div class="square" id="greyYellowBlack"></div>
+                        <div class="square" id="yellowGrassBlack"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purpleBlack"></div>
+                        <div class="square" id="greyPurpleBlack"></div>
+                        <div class="square" id="greyBlack"></div>
+                        <div class="square" id="greyGrassBlack"></div>
+                        <div class="square" id="grassBlack"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="bluePurpleBlack"></div>
+                        <div class="square" id="greyBlueBlack"></div>
+                        <div class="square" id="greyTealBlack"></div>
+                        <div class="square" id="greyGreenBlack"></div>
+                        <div class="square" id="grassGreenBlack"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="blueBlack"></div>
+                        <div class="square" id="tealBlueBlack"></div>
+                        <div class="square" id="tealBlack"></div>
+                        <div class="square" id="greenTealBlack"></div>
+                        <div class="square" id="greenBlack"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="layer">
+                    <div class="row">
+                        <div class="square" id="pink"></div>
+                        <div class="square" id="pinkOrange"></div>
+                        <div class="square" id="orangePink"></div>
+                        <div class="square" id="orange"></div>
+                        <div class="square" id="orangeYellow"></div>
+                        <div class="square" id="yellowOrange"></div>
+                        <div class="square" id="yellow"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="pinkPurple"></div>
+                        <div class="square" id="pinkGrey"></div>
+                        <div class="square" id="orangePurple"></div>
+                        <div class="square" id="orangeGrey"></div>
+                        <div class="square" id="orangeGrass"></div>
+                        <div class="square" id="yellowGrey"></div>
+                        <div class="square" id="yellowGrass"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purplePink"></div>
+                        <div class="square" id="purpleOrange"></div>
+                        <div class="square" id="greyPink"></div>
+                        <div class="square" id="greyOrange"></div>
+                        <div class="square" id="greyYellow"></div>
+                        <div class="square" id="grassOrange"></div>
+                        <div class="square" id="grassYellow"></div>
+    
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purple"></div>
+                        <div class="square" id="purpleGrey"></div>
+                        <div class="square" id="greyPurple"></div>
+                        <div class="square" id="grey"></div>
+                        <div class="square" id="greyGrass"></div>
+                        <div class="square" id="grassGrey"></div>
+                        <div class="square" id=grass></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="purpleBlue"></div>
+                        <div class="square" id="purpleTeal"></div>
+                        <div class="square" id="greyBlue"></div>
+                        <div class="square" id="greyTeal"></div>
+                        <div class="square" id="greyGreen"></div>
+                        <div class="square" id="grassTeal"></div>
+                        <div class="square" id="grassGreen"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="bluePurple"></div>
+                        <div class="square" id="blueGrey"></div>
+                        <div class="square" id="tealPurple"></div>
+                        <div class="square" id="tealGrey"></div>
+                        <div class="square" id="tealGrass"></div>
+                        <div class="square" id="greenGrey"></div>
+                        <div class="square" id="greenGrass"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square" id="blue"></div>
+                        <div class="square" id="blueTeal"></div>
+                        <div class="square" id="tealBlue"></div>
+                        <div class="square" id="teal"></div>
+                        <div class="square" id="tealGreen"></div>
+                        <div class="square" id="greenTeal"></div>
+                        <div class="square" id="green"></div>
+                    </div>
+                </div>
+            </section>
+            
+            <section>
+                <div class="layer">
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="pinkWhite"></div>
+                        <div class="square" id="pinkOrangeWhite"></div>
+                        <div class="square" id="orangeWhite"></div>
+                        <div class="square" id="orangeYellowWhite"></div>
+                        <div class="square" id="yellowWhite"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="purplePinkWhite"></div>
+                        <div class="square" id="greyPinkWhite"></div>
+                        <div class="square" id="greyOrangeWhite"></div>
+                        <div class="square" id="greyYellowWhite"></div>
+                        <div class="square" id="yellowGrassWhite"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="purpleWhite"></div>
+                        <div class="square" id="greyPurpleWhite"></div>
+                        <div class="square" id="greyWhite"></div>
+                        <div class="square" id="greyGrassWhite"></div>
+                        <div class="square" id="grassWhite"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="bluePurpleWhite"></div>
+                        <div class="square" id="greyBlueWhite"></div>
+                        <div class="square" id="greyTealWhite"></div>
+                        <div class="square" id="greyGreenWhite"></div>
+                        <div class="square" id="grassGreenWhite"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="blueWhite"></div>
+                        <div class="square" id="tealBlueWhite"></div>
+                        <div class="square" id="tealWhite"></div>
+                        <div class="square" id="greenTealWhite"></div>
+                        <div class="square" id="greenWhite"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+    
+                <div class="layer">
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="whitePink"></div>
+                        <div class="square" id="whiteOrange"></div>
+                        <div class="square" id="whiteYellow"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="whitePurple"></div>
+                        <div class="square" id="whiteGrey"></div>
+                        <div class="square" id="whiteGrass"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="whiteBlue"></div>
+                        <div class="square" id="whiteTeal"></div>
+                        <div class="square" id="whiteGreen"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+    
+                <div class="layer">
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square" id="white"></div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                        <div class="square"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <script src="./assets/js/script.js"></script>
+    </body>
 </html>

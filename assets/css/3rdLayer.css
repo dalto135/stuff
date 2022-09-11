@@ -1,0 +1,101 @@
+/* Third layer */
+#pinkBlack {
+    background: rgb(170, 0, 85);
+}
+
+#pinkOrangeBlack {
+    background: rgb(170, 43, 85);
+}
+
+#orangeBlack {
+    background: rgb(170, 85, 85);
+}
+
+#orangeYellowBlack {
+    background: rgb(170, 128, 85);
+}
+
+#yellowBlack {
+    background: rgb(170, 170, 85);
+}
+
+#yellowGrassBlack {
+    background: rgb(128, 170, 85);
+}
+
+#grassBlack {
+    background: rgb(85, 170, 85);
+}
+
+#grassGreenBlack {
+    background: rgb(43, 170, 85);
+}
+
+#greenBlack {
+    background: rgb(0, 170, 85);
+}
+
+#greenTealBlack {
+    background: rgb(0, 128, 85);
+}
+
+#tealBlack {
+    background: rgb(0, 85, 85);
+}
+
+#tealBlueBlack {
+    background: rgb(0, 43, 85);
+}
+
+#blueBlack {
+    background: rgb(0, 0, 85);
+}
+
+#bluePurpleBlack {
+    background: rgb(43, 0, 85);
+}
+
+#purpleBlack {
+    background: rgb(85, 0, 85);
+}
+
+#purplePinkBlack {
+    background: rgb(128, 0, 85);
+}
+
+/* Third layer grey */
+#greyBlack {
+    background: rgb(85, 85, 85);
+}
+
+#greyPinkBlack {
+    background: rgb(128, 43, 85);
+}
+
+#greyOrangeBlack {
+    background: rgb(128, 85, 85);
+}
+
+#greyYellowBlack {
+    background: rgb(128, 128, 85);
+}
+
+#greyGrassBlack {
+    background: rgb(85, 128, 85);
+}
+
+#greyGreenBlack {
+    background: rgb(43, 128, 85);
+}
+
+#greyTealBlack {
+    background: rgb(43, 85, 85);
+}
+
+#greyBlueBlack {
+    background: rgb(43, 43, 85);
+}
+
+#greyPurpleBlack {
+    background: rgb(85, 43, 85);
+}
