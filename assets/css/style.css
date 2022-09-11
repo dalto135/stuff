@@ -40,6 +40,16 @@ section {
     border-color: rgb(128, 128, 128);
 }
 
+#buttons {
+    border: None;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    border-radius: 6px;
+}
+
 #dark h1 {
     border-color: rgb(128, 128, 128);
     color: rgb(128, 128, 128)
@@ -48,8 +58,10 @@ section {
 .layer {
     height: 240px;
     width: 240px;
-    padding: 3px;
+    padding: 0px;
     border-radius: 6px;
+    display: flex;
+    flex-direction: column;
 }
 
 .row {
@@ -61,8 +73,9 @@ section {
 
 .square {
     background: rgb(128, 128, 128);
-    height: 26px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
+    padding: 0px;
 }
 
 #dark .square {
