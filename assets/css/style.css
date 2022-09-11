@@ -8,7 +8,7 @@
     justify-content: center;
 }
 
-html, body, main, header {
+html, body, header {
     border: None;
 }
 
@@ -49,6 +49,7 @@ section {
     height: 240px;
     width: 240px;
     padding: 3px;
+    border-radius: 6px;
 }
 
 .row {
