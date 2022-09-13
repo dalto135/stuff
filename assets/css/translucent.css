@@ -95,71 +95,71 @@
     background: rgba(43, 255, 128, 0.5);
 }
 
-/* Middle fourth layer grey */
-#greyTrans {
+/* Middle fourth layer gray */
+#grayTrans {
     background: rgba(128, 128, 128, 0.5);
 }
 
-#tealGreyTrans {
+#tealGrayTrans {
     background: rgba(43, 128, 128, 0.5);
 }
 
-#greyTealTrans {
+#grayTealTrans {
     background: rgba(85, 128, 128, 0.5);
 }
 
-#purpleGreyTrans {
+#purpleGrayTrans {
     background: rgba(128, 43, 128, 0.5);
 }
 
-#greyPurpleTrans {
+#grayPurpleTrans {
     background: rgba(128, 85, 128, 0.5);
 }
 
-#orangeGreyTrans {
+#orangeGrayTrans {
     background: rgba(213, 128, 128, 0.5);
 }
 
-#greyOrangeTrans {
+#grayOrangeTrans {
     background: rgba(170, 128, 128, 0.5);
 }
 
-#grassGreyTrans {
+#grassGrayTrans {
     background: rgba(128, 213, 128, 0.5);
 }
 
-#greyGrassTrans {
+#grayGrassTrans {
     background: rgba(128, 170, 128, 0.5);
 }
 
-#greenGreyTrans {
+#greenGrayTrans {
     background: rgba(43, 213, 128, 0.5);
 }
-#greyGreenTrans {
+#grayGreenTrans {
     background: rgba(85, 170, 128, 0.5);
 }
 
-#blueGreyTrans {
+#blueGrayTrans {
     background: rgba(43, 43, 128, 0.5);
 }
 
-#greyBlueTrans {
+#grayBlueTrans {
     background: rgba(85, 85, 128, 0.5);
 }
 
-#pinkGreyTrans {
+#pinkGrayTrans {
     background: rgba(213, 43, 128, 0.5);
 }
 
-#greyPinkTrans {
+#grayPinkTrans {
     background: rgba(170, 85, 128, 0.5);
 }
 
-#yellowGreyTrans {
+#yellowGrayTrans {
     background: rgba(213, 213, 128, 0.5);
 }
 
-#greyYellowTrans {
+#grayYellowTrans {
     background: rgba(170, 170, 128, 0.5);
 }
 
@@ -194,4 +194,202 @@
 
 #grassOrangeTrans {
     background: rgba(170, 213, 128, 0.5);
+}
+
+/* Fourth layer */
+#gray #greenTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenTealTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealGreenTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealBlueTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blueTealTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blueTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #bluePurpleTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleBlueTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purplePinkTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #pinkPurpleTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #pinkTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #pinkOrangeTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangePinkTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeYellowTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowOrangeTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowGrassTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassYellowTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassGreenTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenGrassTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* Middle fourth layer gray */
+#gray #grayTrans {
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+#gray #tealGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayTealTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayPurpleTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayOrangeTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayGrassTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+#gray #grayGreenTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blueGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayBlueTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #pinkGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayPinkTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowGrayTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayYellowTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* Middle fourth layer */
+#gray #grassTealTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealGrassTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealPurpleTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleTealTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleOrangeTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangePurpleTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeGrassTrans {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassOrangeTrans {
+    border-color: rgba(0, 0, 0, 0);
 }

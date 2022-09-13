@@ -15,7 +15,7 @@
     background: rgb(43, 85, 43);
 }
 
-#blackGrey {
+#blackGray {
     background: rgb(43, 43, 43);
 }
 
@@ -33,4 +33,41 @@
 
 #blackPink {
     background: rgb(85, 0, 43);
+}
+
+/* Second layer gray */
+#gray #blackGreen {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackTeal {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackBlue {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackGrass {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackGray {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackPurple {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackYellow {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackOrange {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blackPink {
+    border-color: rgba(0, 0, 0, 0);
 }

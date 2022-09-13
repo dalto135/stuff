@@ -63,39 +63,141 @@
     background: rgb(213, 85, 170);
 }
 
-/* Fifth layer grey */
-#greyWhite {
+/* Fifth layer gray */
+#grayWhite {
     background: rgb(170, 170, 170);
 }
 
-#greyPinkWhite {
+#grayPinkWhite {
     background: rgb(213, 128, 170);
 }
 
-#greyOrangeWhite {
+#grayOrangeWhite {
     background: rgb(213, 170, 170);
 }
 
-#greyYellowWhite {
+#grayYellowWhite {
     background: rgb(213, 213, 170);
 }
 
-#greyGrassWhite {
+#grayGrassWhite {
     background: rgb(170, 213, 170);
 }
 
-#greyGreenWhite {
+#grayGreenWhite {
     background: rgb(128, 213, 170);
 }
 
-#greyTealWhite {
+#grayTealWhite {
     background: rgb(128, 170, 170);
 }
 
-#greyBlueWhite {
+#grayBlueWhite {
     background: rgb(128, 128, 170);
 }
 
-#greyPurpleWhite {
+#grayPurpleWhite {
     background: rgb(170, 128, 170);
+}
+
+/* Fifth layer */
+#gray #pinkWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #pinkOrangeWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeYellowWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowGrassWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassGreenWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenTealWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealBlueWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blueWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #bluePurpleWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purplePinkWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* Fifth layer gray gray */
+#gray #grayWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayPinkWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayOrangeWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayYellowWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayGrassWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayGreenWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayTealWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayBlueWhite {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayPurpleWhite {
+    border-color: rgba(0, 0, 0, 0);
 }

@@ -5,14 +5,17 @@ function setTheme() {
     let time = date.getHours();
 
     if (time >= 8 && time < 21) {
-        parent.setAttribute("id", "light");
+        lightMode();
+    }
+    else {
+        darkMode();
     }
 }
 
 // setTheme();
 
-function greyMode() {
-    parent.setAttribute("id", "grey");
+function grayMode() {
+    parent.setAttribute("id", "gray");
 }
 
 function lightMode() {
@@ -23,10 +26,10 @@ function darkMode() {
     parent.setAttribute("id", "dark");
 }
 
-let greyButton = document.querySelector("#greyButton");
+let grayButton = document.querySelector("#grayButton");
 let lightButton = document.querySelector("#lightButton");
 let darkButton = document.querySelector("#darkButton");
 
-greyButton.addEventListener("click", greyMode);
+grayButton.addEventListener("click", grayMode);
 lightButton.addEventListener("click", lightMode);
 darkButton.addEventListener("click", darkMode);

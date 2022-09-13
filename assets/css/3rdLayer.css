@@ -63,39 +63,141 @@
     background: rgb(128, 0, 85);
 }
 
-/* Third layer grey */
-#greyBlack {
+/* Third layer gray */
+#grayBlack {
     background: rgb(85, 85, 85);
 }
 
-#greyPinkBlack {
+#grayPinkBlack {
     background: rgb(128, 43, 85);
 }
 
-#greyOrangeBlack {
+#grayOrangeBlack {
     background: rgb(128, 85, 85);
 }
 
-#greyYellowBlack {
+#grayYellowBlack {
     background: rgb(128, 128, 85);
 }
 
-#greyGrassBlack {
+#grayGrassBlack {
     background: rgb(85, 128, 85);
 }
 
-#greyGreenBlack {
+#grayGreenBlack {
     background: rgb(43, 128, 85);
 }
 
-#greyTealBlack {
+#grayTealBlack {
     background: rgb(43, 85, 85);
 }
 
-#greyBlueBlack {
+#grayBlueBlack {
     background: rgb(43, 43, 85);
 }
 
-#greyPurpleBlack {
+#grayPurpleBlack {
     background: rgb(85, 43, 85);
+}
+
+/* Third layer gray */
+#gray #pinkBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #pinkOrangeBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #orangeYellowBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #yellowGrassBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grassGreenBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #greenTealBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #tealBlueBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #blueBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #bluePurpleBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purpleBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #purplePinkBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+/* Third layer gray gray */
+#gray #grayBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayPinkBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayOrangeBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayYellowBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayGrassBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayGreenBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayTealBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayBlueBlack {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #grayPurpleBlack {
+    border-color: rgba(0, 0, 0, 0);
 }

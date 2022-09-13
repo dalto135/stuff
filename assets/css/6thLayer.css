@@ -15,7 +15,7 @@
     background: rgb(213, 255, 213);
 }
 
-#whiteGrey {
+#whiteGray {
     background: rgb(213, 213, 213);
 }
 
@@ -33,4 +33,41 @@
 
 #whitePink {
     background: rgb(255, 170, 213);
+}
+
+/* Sixth layer */
+#gray #whiteGreen {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whiteTeal {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whiteBlue {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whiteGrass {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whiteGray {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whitePurple {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whiteYellow {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whiteOrange {
+    border-color: rgba(0, 0, 0, 0);
+}
+
+#gray #whitePink {
+    border-color: rgba(0, 0, 0, 0);
 }

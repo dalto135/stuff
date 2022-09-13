@@ -8,12 +8,18 @@
     justify-content: center;
 }
 
-html, body, header {
+html, body, section, header, div {
     border: None;
+    margin: 0px;
+    padding: 0px;
 }
 
-#grey {
+#gray {
     background: rgb(128, 128, 128);
+}
+
+#gray .color {
+    border-color: rgba(0, 0, 0, 0);
 }
 
 #light {
@@ -27,16 +33,24 @@ html, body, header {
 section {
     display: flex;
     flex-wrap: wrap;
-    border: None;
-    margin: 0px;
-    padding: 0px;
 }
 
 #dark section {
     border-color: rgb(128, 128, 128);
 }
 
-#dark div {
+/* div {
+    border: None;
+    margin: 0px;
+    padding: 0px;
+} */
+
+section div {
+    border: 1px solid black;
+    margin: 3px;
+}
+
+#dark section div {
     border-color: rgb(128, 128, 128);
 }
 
