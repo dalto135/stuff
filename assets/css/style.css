@@ -35,15 +35,13 @@ section {
     flex-wrap: wrap;
 }
 
+.all div div {
+    border-color: rgba(0, 0, 0, 0);
+}
+
 #dark section {
     border-color: rgb(128, 128, 128);
 }
-
-/* div {
-    border: None;
-    margin: 0px;
-    padding: 0px;
-} */
 
 section div {
     border: 1px solid black;
@@ -67,6 +65,14 @@ h1 {
 #dark h1 {
     border-color: rgb(128, 128, 128);
     color: rgb(128, 128, 128)
+}
+
+#light #white {
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
+#dark #black {
+    border-color: rgba(255, 255, 255, 0.25);
 }
 
 .layer {
