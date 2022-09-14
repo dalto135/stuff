@@ -1,7 +1,0 @@
-#white {
-    background: rgb(255, 255, 255);
-}
-
-#gray #white {
-    border-color: rgba(0, 0, 0, 0);
-}
