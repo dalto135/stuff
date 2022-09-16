@@ -74,6 +74,10 @@ section div {
     border-color: rgba(0, 0, 0, 0.125);
 }
 
+#gray .all #gray {
+    border-color: rgba(0, 0, 0, 0.25);
+}
+
 #graySquare {
     border-color: rgb(0, 0, 0);
 }
