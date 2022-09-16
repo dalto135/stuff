@@ -95,11 +95,37 @@ section div {
 h1, button {
     border: 1px solid black;
     margin: 3px;
-    padding: 0px 3px;
+    padding: 3px;
 }
 
 h1 {
     border-radius: 6px;
+}
+
+button {
+    background: rgb(191, 191, 191);
+    font-size: 12pt;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: linear-gradient(rgb(255, 255, 255), rgb(191, 191, 191));
+}
+
+#light button {
+    background: rgba(213, 213, 213);
+}
+
+#light button:hover {
+    background: linear-gradient(rgb(255, 255, 255), rgba(213, 213, 213));
+}
+
+#dark button {
+    background: rgb(128, 128, 128);
+}
+
+#dark button:hover {
+    background: linear-gradient(rgb(255, 255, 255), rgba(128, 128, 128));
 }
 
 #dark h1 {
