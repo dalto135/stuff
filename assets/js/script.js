@@ -1,3 +1,18 @@
+function colorCheck(red, green, blue) {
+    let diff = blue;
+    let one = 1 - blue;
+    if (one < diff) {
+        diff = one;
+    }
+
+    if (red < (blue - diff) || red > (blue + diff) || green < (blue - diff) || green > (blue + diff)) {
+        return false;
+    }
+    else {
+        return true;
+    }
+}
+
 let parent = document.querySelector("html");
 
 function setTheme() {
