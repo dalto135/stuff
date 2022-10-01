@@ -136,3 +136,17 @@ button:hover {
     border-color: rgb(128, 128, 128);
     color: rgb(128, 128, 128)
 }
+
+.twoFiveFiveLayer {
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.twoFiveFiveRow {
+    height: 1px;
+    width: 256px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+    border: None;
+}
